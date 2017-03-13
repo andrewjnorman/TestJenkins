@@ -2,11 +2,22 @@
 //
 
 #include "stdafx.h"
+#include <assert.h>
 
+int fn_1();
 
 int main()
 {
-	int x = 1;
+	int x = fn_1();
+
+	printf("x = %d", x);
+
+	assert(x);
+
     return 0;
+}
+
+int fn_1() {
+	return 1;
 }
 
