@@ -10,9 +10,9 @@ int main()
 {
 	int x = fn_1();
 
-	printf("x = %d", x);
+	printf("x = %d\n", x);
 
-	assert(x);
+	assert(x == 2);
 
     return 0;
 }
