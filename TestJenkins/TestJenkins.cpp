@@ -12,7 +12,7 @@ int main()
 
 	printf("x = %d\n", x);
 
-	assert(x == 47);
+	assert(x == 48);
 
     return 0;
 }
